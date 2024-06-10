@@ -1,0 +1,52 @@
+.terminal {
+  background-color: black;
+  color: #d3d3d3;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.output {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 50px; /* space for the input area */
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 0px 10px 0px 10px;
+}
+
+.input {
+  background-color: black;
+  color: #d3d3d3;
+  border: none;
+  flex: 1;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  padding: 0 10px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.commandLine {
+  font-weight: bold;
+  color: #d3d3d3;
+  white-space: pre; /* Ensures the prompt text doesn't break to the next line */
+}
+
+/* Customize scrollbars */
+.output::-webkit-scrollbar {
+  width: 8px;
+}

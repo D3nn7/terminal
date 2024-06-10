@@ -1,0 +1,31 @@
+{
+  "name": "D3nn7 Terminal",
+  "author": "Danny Schapeit",
+  "domain": "danny.schapeit.com",
+  "systemInformation": {
+    "operatingSystem": "D3NN7 OS",
+    "kernel": "5.11.0-37-generic",
+    "architecture": "x86_64",
+    "hardware": {
+      "cpu": "Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz",
+      "ram": "16GB",
+      "storage": "1TB SSD"
+    },
+    "network": {
+      "hostname": "opuntia.cactusserver.net",
+      "ipAddress": "192.168.1.2",
+      "description": "Cactusserver Network (Slynite)"
+    }
+  },
+  "files": {
+    "/home/visitor": {
+      "projects": "Directory"
+    },
+    "/home/visitor/projects": {
+      "project1.md": "Content of Project 1",
+      "project2.md": "Content of Project 2",
+      "project3.md": "Content of Project 3"
+    }
+  },
+  "copyrightYear": 2002
+}
